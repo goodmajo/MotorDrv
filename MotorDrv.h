@@ -1,9 +1,10 @@
 /*
  * MotorDrv.h <<HEADER>>
- * This is a library to deal with Arduino interfacing with the L298N H-bridge module, the IBT_2 half-bridge module, and killing current to motors that you don't want to move. 
- * By Joel R. Goodman, October and November of 2016
+ * This is a library that drives DC motors with a variety of different motor drivers.
+ * As of right now, supported drivers include the L298N and IBT_2 (aka BTS7960). Support for additional drivers will come in the future. 
+ * By Joel R. Goodman
  * goodmajo@oregonstate.edu
- * https://github.com/goodmajo/ME382PentRob
+ * https://github.com/goodmajo/MotorDrv
 */
 
 #include <Arduino.h>
